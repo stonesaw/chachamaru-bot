@@ -1,0 +1,53 @@
+{
+    "url": {
+        "cm": {
+            "0": "https://www.youtube.com/watch?v=0H4oeZnTLFM",
+            "1": "https://www.youtube.com/watch?v=J_DQ4VSdEBc",
+            "2": "https://www.youtube.com/watch?v=4qu_Omnyogw",
+            "3": "https://www.youtube.com/watch?v=N6LeIcEMo0M",
+            "4": "https://www.youtube.com/watch?v=LWmLNFdtQXc",
+            "5": "https://www.youtube.com/watch?v=RzBeNGPFdKA",
+            "6": "https://www.youtube.com/watch?v=1DtNyFyvlLY"
+        },
+
+        "song": {
+            "0": "https://www.youtube.com/watch?v=ec6__tsfR1M"
+        }
+    },
+
+    "other": {
+        "face": ":pleading_face:"
+    },
+
+    "message": {
+        "greet": {
+            "0": "f'へー、おまえ{}っていうのかか！\nなんだかおまえとは、仲良くできる気がするぞ！ふんふん！'",
+            "1": "オイラ、ちゃちゃまるってんだ！\nよろしくな！",
+            "2": "こんちゃまる！"
+        },
+
+        "call": {
+            "0": "呼んだかー？"
+        },
+
+        "help": {
+            "all": {
+                "0": "**オイラは、ちゃちゃ丸だ！ よろしくな～**",
+                "1": "```",
+                "2": "- ちゃちゃまる",
+                "3": "    オイラが、受け答えするぞー！ふんふん！",
+                "4": "- !song",
+                "5": "    熱盛の曲を流すぞー！ふんふん！",
+                "6": "- !cm",
+                "7": "    ちゃっかり宣伝するぞー！ふんふん！",
+                "8": "(予定↓)",
+                "9": "- !hunhun (on/off)",
+                "10":"    ふんふんする気分を変えるぞ！",
+                "11":"```"
+            }
+        },
+
+        "ready": "f'{client.user.display_name} ... 起動！ふんふん！'"
+
+    }
+}
