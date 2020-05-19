@@ -1,53 +1,105 @@
 {
-    "url": {
-        "cm": {
-            "0": "https://www.youtube.com/watch?v=0H4oeZnTLFM",
-            "1": "https://www.youtube.com/watch?v=J_DQ4VSdEBc",
-            "2": "https://www.youtube.com/watch?v=4qu_Omnyogw",
-            "3": "https://www.youtube.com/watch?v=N6LeIcEMo0M",
-            "4": "https://www.youtube.com/watch?v=LWmLNFdtQXc",
-            "5": "https://www.youtube.com/watch?v=RzBeNGPFdKA",
-            "6": "https://www.youtube.com/watch?v=1DtNyFyvlLY"
+    "cm": {
+        "0": "https://www.youtube.com/watch?v=0H4oeZnTLFM",
+        "1": "https://www.youtube.com/watch?v=J_DQ4VSdEBc",
+        "2": "https://www.youtube.com/watch?v=4qu_Omnyogw",
+        "3": "https://www.youtube.com/watch?v=N6LeIcEMo0M",
+        "4": "https://www.youtube.com/watch?v=LWmLNFdtQXc",
+        "5": "https://www.youtube.com/watch?v=RzBeNGPFdKA",
+        "6": "https://www.youtube.com/watch?v=1DtNyFyvlLY"
+    },
+
+    "song": {
+        "0": "https://www.youtube.com/watch?v=ec6__tsfR1M"
+    },
+
+    "greeting": {
+        "0": "f'へー、おまえ{}っていうのかか！\nなんだかおまえとは、仲良くできる気がするぞー！ふんふん！'",
+        "1": "オイラ、ちゃちゃまるってんだ！\nよろしくな！",
+        "2": "こんちゃまる！"
+    },
+
+    "call": {
+        "0": "呼んだかー？",
+        "1": "n回、、、n+1回、、、n+2回..."
+    },
+
+    "time_call": {
+        "getup": {
+            "kintore": "おはよう！お前も朝から筋トレか？\nふんふん！"
         },
 
-        "song": {
-            "0": "https://www.youtube.com/watch?v=ec6__tsfR1M"
+        "morning": {
+            "default": "morning"
+        },
+        
+        "afternoon": {
+            "fishing": "くっそー魚のやつめ\nなかなか釣れないぜ！ふんふん！",
+            "bee": "何ハチを引き連れてんだよ！\n早く逃げろってー！ふんふん！"
+        },
+
+        "evening": {
+            "default": "evening"
+        },
+
+        "night": {
+            "default": "night"
+        },
+
+        "sleep": {
+            "default": "今はぐっすり眠ってるぞ！     ー ちゃちゃまる"
         }
     },
 
-    "other": {
-        "face": ":pleading_face:"
+    "ready": "f'{client.user.display_name} ... 起動！ふんふん！'",
+
+    "help": {
+        "all": {
+            "0": "**オイラは、ちゃちゃまるだ！ よろしくな～**",
+            "1": "```",
+            "2": "- ちゃちゃまる",
+            "3": "    オイラが、受け答えするぞー！ふんふん！",
+            "4": "- !song",
+            "5": "    熱盛の曲を流すぞー！ふんふん！",
+            "6": "- !cm",
+            "7": "    ちゃっかり宣伝するぞー！ふんふん！",
+            "8": "\n",
+            "9": "- !funfun (true/false)",
+            "10":"    ふんふんする気分を変えるぞ！",
+            "11":"*Show more (!funfun help)*",
+            "12":"```"
+        },
+
+        "funfun": {
+            "0": "***ふんふん！オイラの口癖だー！***",
+            "1": ":pleading_face:",
+            "2": "```",
+            "3": "=== !funfun help ===",
+            "4": "- !funfun true",
+            "5": "- !funfun false",
+            "6": "- !funfun",
+            "7": "**ふんふん！の追加・削除**",
+            "8": "( - !funfun add [name] [text] [time] )",
+            "9": "( - !funfun del [name] [text] [time] )",
+            "10":"( - !funfun list [time/all] )",
+            "11":"```"
+        },
+
+        "funfun_time_set": {
+            "0": "```",
+            "1": "|  6 - 8  |   getup   |",
+            "2": "|  9 - 12 |  morning  |",
+            "3": "| 13 - 16 | afternoon |",
+            "4": "| 17 - 19 |  evening  |",
+            "5": "| 20 - 22 |   night   |",
+            "6": "| 23 - 5  |   sleep   |",
+            "7": "```"
+        }
     },
 
-    "message": {
-        "greet": {
-            "0": "f'へー、おまえ{}っていうのかか！\nなんだかおまえとは、仲良くできる気がするぞ！ふんふん！'",
-            "1": "オイラ、ちゃちゃまるってんだ！\nよろしくな！",
-            "2": "こんちゃまる！"
-        },
-
-        "call": {
-            "0": "呼んだかー？"
-        },
-
-        "help": {
-            "all": {
-                "0": "**オイラは、ちゃちゃ丸だ！ よろしくな～**",
-                "1": "```",
-                "2": "- ちゃちゃまる",
-                "3": "    オイラが、受け答えするぞー！ふんふん！",
-                "4": "- !song",
-                "5": "    熱盛の曲を流すぞー！ふんふん！",
-                "6": "- !cm",
-                "7": "    ちゃっかり宣伝するぞー！ふんふん！",
-                "8": "(予定↓)",
-                "9": "- !hunhun (on/off)",
-                "10":"    ふんふんする気分を変えるぞ！",
-                "11":"```"
-            }
-        },
-
-        "ready": "f'{client.user.display_name} ... 起動！ふんふん！'"
-
+    "face": {
+        "0": ":pleading_face:", 
+        "1": ":rage:",
+        "2": ":thiking:"
     }
 }
