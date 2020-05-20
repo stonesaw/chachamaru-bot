@@ -21,33 +21,39 @@
 
     "call": {
         "0": "呼んだかー？",
-        "1": "n回、、、n+1回、、、n+2回..."
+        "1": "2028... 2029... 2039..."
     },
 
     "time_call": {
         "getup": {
+            "default": "6 - 8 getup",
             "kintore": "おはよう！お前も朝から筋トレか？\nふんふん！"
         },
 
         "morning": {
-            "default": "morning"
+            "default": "9 - 12 mornig",
+            "kintore": "いい朝だな！筋トレがはかどるぜ！ふんふん！"
         },
         
         "afternoon": {
+            "default": "13 - 16 afternoon",
             "fishing": "くっそー魚のやつめ\nなかなか釣れないぜ！ふんふん！",
             "bee": "何ハチを引き連れてんだよ！\n早く逃げろってー！ふんふん！"
         },
 
         "evening": {
-            "default": "evening"
+            "default": "17 - 19 evening",
+            "pro": "今日のごはんはプロテイン！"
         },
 
         "night": {
-            "default": "night"
+            "default": "20 - 22 night",
+            "pro": "寝る前にプロテイン！"
         },
 
         "sleep": {
-            "default": "今はぐっすり眠ってるぞ！     ー ちゃちゃまる"
+            "default": "23 - 5 sleep",
+            "sleep": "今はぐっすり眠ってるぞ！     ー ちゃちゃまる"
         }
     },
 
@@ -63,7 +69,7 @@
             "5": "    熱盛の曲を流すぞー！ふんふん！",
             "6": "- !cm",
             "7": "    ちゃっかり宣伝するぞー！ふんふん！",
-            "8": "\n",
+            "8": "",
             "9": "- !funfun (true/false)",
             "10":"    ふんふんする気分を変えるぞ！",
             "11":"*Show more (!funfun help)*",
